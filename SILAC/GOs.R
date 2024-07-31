@@ -1,3 +1,5 @@
+### Credit to Shota Nakanoh
+
 library(tidyverse)
 library(dplyr)
 library(UniprotR) 

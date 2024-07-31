@@ -1,6 +1,6 @@
 < Global proteomics >
 
-Scripts and annotations for the human and mouse global proteomics analyses in the [Nakanoh, Stamataki, et al. 2024 paper].
+Scripts for the human and mouse global proteomics analyses in the [Nakanoh, Stamataki, et al. 2024 paper].
 Fig2 and S2 in the paper can be created by running [script names]
 
 Data is available at PRIDE PXD054152.

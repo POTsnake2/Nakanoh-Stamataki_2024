@@ -1,4 +1,9 @@
-# silac-analysis
+Global proteomics
+
+
+
+
+SILAC
 
 Data and scripts for the human and mouse SILAC analyses in the [Nakanoh, Stamataki, et al. 2024 paper].
 

@@ -4,6 +4,8 @@ library(readr)
 library(tidyverse)
 library(ggpubr)
 
+setwd("SILAC/")
+
 mh_hl <- read_csv("section6/mh_hl.csv")
 
 half_lives <- read_csv("mh_hl.4.tiles/mh_hl_anno.csv")

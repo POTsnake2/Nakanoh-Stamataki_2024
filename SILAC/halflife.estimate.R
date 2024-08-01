@@ -3,7 +3,7 @@
 library(tidyverse)
 theme_set(theme_bw())
 
-setwd("SILAC")
+setwd("SILAC/")
 
 #################### 1. Filtering by NAs ####################
 

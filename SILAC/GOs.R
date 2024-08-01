@@ -7,7 +7,7 @@ library(GO.db)
 library(AnnotationDbi)
 select <- dplyr::select #in case conflict happens
 
-setwd("SILAC")
+setwd("SILAC/")
 
 mh_hl <- read_csv("section6/mh_hl.csv")
 

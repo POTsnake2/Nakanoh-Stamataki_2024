@@ -7,7 +7,7 @@ setwd("SILAC/")
 
 #################### 1. Filtering by NAs ####################
 
-# Read original files available in PRIDE
+# Read original files available in PRIDE repository
 # Delete the column about protein description and protein groups
 # Rename the columns
 

@@ -1,9 +1,11 @@
 ### Credit to Shota Nakanoh and Hayley L Carr
 
-#################### 1. Filtering by NAs ####################
-
 library(tidyverse)
 theme_set(theme_bw())
+
+setwd("SILAC")
+
+#################### 1. Filtering by NAs ####################
 
 # Read original files available in PRIDE
 # Delete the column about protein description and protein groups

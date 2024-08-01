@@ -6,6 +6,8 @@ library(tidyverse)
 theme_set(theme_bw()) 
 library(viridis)
 
+setwd("SILAC/")
+
 #################### GO term ID conversion ####################
 
 # Load GSEA outputs - convert GO term names into something more human readable

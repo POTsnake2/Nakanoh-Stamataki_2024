@@ -210,7 +210,7 @@ ggplot((proteasome_activators_inhibitors_median),
   geom_smooth(method = "lm", se = TRUE, alpha=0.1, aes(color = species, fill = species), formula = y ~ x + 0, size = 0.75) +  # Color standard error by species
   geom_abline(aes(intercept = 0, 
                   slope = ifelse(species == "m", m_Kdeg, h_Kdeg), 
-                  color = species, linetype = species),,linetype = "dashed") +
+                  color = species, linetype = species),linetype = "dashed") +
   scale_color_manual(values = c("m" = "chocolate1", "h" = "deepskyblue2")) +  # Manual color scale for abline
   scale_fill_manual(values = c("m" = "chocolate1", "h" = "deepskyblue2"), guide = FALSE) +  # Manual color scale for geom_smooth
   labs(
@@ -245,7 +245,7 @@ ggplot((proteasome_activators_inhibitors_mean),
   geom_smooth(method = "lm", se = TRUE, alpha=0.1, aes(color = species, fill = species), formula = y ~ x + 0, size = 0.75) +  # Color standard error by species
   geom_abline(aes(intercept = 0, 
                   slope = ifelse(species == "m", m_Kdeg, h_Kdeg), # against median!!
-                  color = species, linetype = species),,linetype = "dashed") +
+                  color = species, linetype = species),linetype = "dashed") +
   scale_color_manual(values = c("m" = "chocolate1", "h" = "deepskyblue2")) +  # Manual color scale for abline
   scale_fill_manual(values = c("m" = "chocolate1", "h" = "deepskyblue2"), guide = FALSE) +  # Manual color scale for geom_smooth
   labs(

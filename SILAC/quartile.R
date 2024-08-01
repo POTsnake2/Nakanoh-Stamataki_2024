@@ -2,6 +2,8 @@
 
 library(tidyverse)
 
+setwd("SILAC")
+
 mh_hl <- read_csv("section6/mh_hl.csv")
 mh_hl_anno <- mh_hl
 

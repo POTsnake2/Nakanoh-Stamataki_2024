@@ -5,7 +5,7 @@
 library(tidyverse)
 theme_set(theme_bw())
 
-# Read original files 
+# Read original files available in PRIDE
 # Delete the column about protein description and protein groups
 # Rename the columns
 

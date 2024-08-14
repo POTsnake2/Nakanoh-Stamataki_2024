@@ -1,0 +1,17 @@
+.gitignore
+
+# General
+**/__pycache__
+*.pyc
+*.bak
+*.tmp
+*.swo
+*.swp
+*~
+.DS_Store
+
+# IDEA
+.idea/
+*.eml
+*.ipr
+*.iws

@@ -555,7 +555,7 @@ mouse_go_sig_genes <- mouse_model_t_half_genes %>%
   filter(geneName %in% mouse_geneset_sig$genes) %>%
   left_join(mouse_geneset_sig, by = c("geneName" = "genes"))
 
-human_go_sig <- go_mouse_rev %>%
+human_go_sig <- go_human_rev %>%
   filter(Dispensability<0.5) %>%
   filter(`FDR q-val` < 0.05)
 human_go_sig_name <- go_human %>%
